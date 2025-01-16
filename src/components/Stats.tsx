@@ -1,7 +1,7 @@
-import { websiteContent } from "../data/content";
+import { getStatsContent } from "../utils/contentLoader";
 
 export const Stats = () => {
-  const { stats } = websiteContent;
+  const stats = getStatsContent();
 
   return (
     <section className="py-20 bg-primary text-white">

@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { websiteContent } from "../data/content";
+import { getNavigationContent } from "../utils/contentLoader";
 
 export const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { navigation } = websiteContent;
+  const navigation = getNavigationContent();
 
   return (
     <nav className="fixed w-full bg-white shadow-sm z-50">

@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import { websiteContent } from "../data/content";
+import { getTestimonialsContent } from "../utils/contentLoader";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export const Testimonials = () => {
-  const { testimonials } = websiteContent;
+  const testimonials = getTestimonialsContent();
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {

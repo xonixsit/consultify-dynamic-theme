@@ -1,4 +1,4 @@
-import { websiteContent } from "../data/content";
+import { getServicesContent } from "../utils/contentLoader";
 import { BarChart, Laptop, Settings, DollarSign } from "lucide-react";
 
 const iconMap = {
@@ -9,7 +9,7 @@ const iconMap = {
 };
 
 export const Services = () => {
-  const { services } = websiteContent;
+  const services = getServicesContent();
 
   return (
     <section id="services" className="py-20 bg-accent">

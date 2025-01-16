@@ -1,8 +1,8 @@
-import { websiteContent } from "../data/content";
+import { getHeroContent } from "../utils/contentLoader";
 import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
-  const { hero } = websiteContent;
+  const hero = getHeroContent();
 
   return (
     <div className="relative bg-primary min-h-screen flex items-center">
