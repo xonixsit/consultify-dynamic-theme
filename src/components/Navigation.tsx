@@ -10,8 +10,15 @@ export const Navigation = () => {
     <nav className="fixed w-full bg-white shadow-sm z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <a href="/" className="text-2xl font-bold text-primary">
-            {navigation.logo}
+          <a href="/" className="flex items-center space-x-2">
+            <div className="text-2xl font-bold bg-primary text-white px-3 py-1 rounded-md transform -skew-x-12">
+              <span className="inline-block transform skew-x-12">
+                {navigation.logo}
+              </span>
+            </div>
+            <span className="text-primary font-medium hidden sm:inline-block">
+              Consulting
+            </span>
           </a>
 
           {/* Desktop Navigation */}
