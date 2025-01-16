@@ -1,0 +1,127 @@
+{
+  "siteInfo": {
+    "name": "ConsultPro",
+    "description": "Strategic Business Consulting Services",
+    "logo": "ConsultPro"
+  },
+  "navigation": {
+    "logo": "ConsultPro",
+    "links": [
+      { "text": "Home", "href": "/" },
+      { "text": "Services", "href": "#services" },
+      { "text": "About", "href": "#about" },
+      { "text": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "title": "Strategic Solutions for Business Growth",
+    "subtitle": "Transform your business with expert consulting services",
+    "cta": "Get Started",
+    "backgroundImage": "/hero-bg.jpg"
+  },
+  "about": {
+    "title": "About ConsultPro",
+    "subtitle": "Your Trusted Business Partner",
+    "description": "With over two decades of experience, ConsultPro has been helping businesses transform and grow. Our team of expert consultants brings diverse industry knowledge and innovative solutions to every challenge.",
+    "mission": "Our mission is to empower businesses with strategic insights and actionable solutions that drive sustainable growth.",
+    "values": [
+      "Excellence in Service",
+      "Innovation & Adaptability",
+      "Client-Centric Approach",
+      "Integrity & Trust"
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Let's discuss how we can help your business grow",
+    "address": "123 Business Avenue, Suite 200, New York, NY 10001",
+    "email": "contact@consultpro.com",
+    "phone": "+1 (555) 123-4567",
+    "formFields": [
+      {
+        "name": "name",
+        "label": "Full Name",
+        "type": "text",
+        "placeholder": "Enter your full name",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email Address",
+        "type": "email",
+        "placeholder": "Enter your email",
+        "required": true
+      },
+      {
+        "name": "message",
+        "label": "Message",
+        "type": "textarea",
+        "placeholder": "How can we help you?",
+        "required": true
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions tailored to your needs",
+    "items": [
+      {
+        "title": "Strategy Consulting",
+        "description": "Develop winning strategies for sustainable growth",
+        "icon": "BarChart"
+      },
+      {
+        "title": "Digital Transformation",
+        "description": "Navigate the digital landscape with confidence",
+        "icon": "Laptop"
+      },
+      {
+        "title": "Operations Excellence",
+        "description": "Optimize processes for maximum efficiency",
+        "icon": "Settings"
+      },
+      {
+        "title": "Financial Advisory",
+        "description": "Make informed decisions with expert financial guidance",
+        "icon": "DollarSign"
+      }
+    ]
+  },
+  "stats": [
+    { "number": "500+", "label": "Clients Served" },
+    { "number": "95%", "label": "Success Rate" },
+    { "number": "50+", "label": "Expert Consultants" },
+    { "number": "20+", "label": "Years Experience" }
+  ],
+  "testimonials": [
+    {
+      "quote": "ConsultPro transformed our business with their strategic insights.",
+      "author": "Sarah Johnson",
+      "position": "CEO, TechStart Inc."
+    },
+    {
+      "quote": "The team's expertise helped us achieve record growth.",
+      "author": "Michael Chen",
+      "position": "Director, Global Solutions"
+    },
+    {
+      "quote": "Outstanding service and remarkable results.",
+      "author": "Emma Williams",
+      "position": "COO, Innovation Labs"
+    }
+  ],
+  "footer": {
+    "description": "ConsultPro delivers strategic consulting services to help businesses thrive in today's competitive landscape.",
+    "socialLinks": [
+      { "platform": "LinkedIn", "url": "#", "icon": "Linkedin" },
+      { "platform": "Twitter", "url": "#", "icon": "Twitter" },
+      { "platform": "Facebook", "url": "#", "icon": "Facebook" }
+    ],
+    "quickLinks": [
+      { "text": "Privacy Policy", "href": "#" },
+      { "text": "Terms of Service", "href": "#" },
+      { "text": "Careers", "href": "#" }
+    ],
+    "copyright": "© 2024 ConsultPro. All rights reserved."
+  }
+}
