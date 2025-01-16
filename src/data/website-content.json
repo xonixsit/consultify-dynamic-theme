@@ -19,6 +19,48 @@
     "cta": "Get Started",
     "backgroundImage": "/hero-bg.jpg"
   },
+  "about": {
+    "title": "About ConsultPro",
+    "subtitle": "Your Trusted Business Partner",
+    "description": "With over two decades of experience, ConsultPro has been helping businesses transform and grow. Our team of expert consultants brings diverse industry knowledge and innovative solutions to every challenge.",
+    "mission": "Our mission is to empower businesses with strategic insights and actionable solutions that drive sustainable growth.",
+    "values": [
+      "Excellence in Service",
+      "Innovation & Adaptability",
+      "Client-Centric Approach",
+      "Integrity & Trust"
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Let's discuss how we can help your business grow",
+    "address": "123 Business Avenue, Suite 200, New York, NY 10001",
+    "email": "contact@consultpro.com",
+    "phone": "+1 (555) 123-4567",
+    "formFields": [
+      {
+        "name": "name",
+        "label": "Full Name",
+        "type": "text",
+        "placeholder": "Enter your full name",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email Address",
+        "type": "email",
+        "placeholder": "Enter your email",
+        "required": true
+      },
+      {
+        "name": "message",
+        "label": "Message",
+        "type": "textarea",
+        "placeholder": "How can we help you?",
+        "required": true
+      }
+    ]
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "Comprehensive solutions tailored to your needs",
@@ -67,5 +109,19 @@
       "author": "Emma Williams",
       "position": "COO, Innovation Labs"
     }
-  ]
+  ],
+  "footer": {
+    "description": "ConsultPro delivers strategic consulting services to help businesses thrive in today's competitive landscape.",
+    "socialLinks": [
+      { "platform": "LinkedIn", "url": "#", "icon": "Linkedin" },
+      { "platform": "Twitter", "url": "#", "icon": "Twitter" },
+      { "platform": "Facebook", "url": "#", "icon": "Facebook" }
+    ],
+    "quickLinks": [
+      { "text": "Privacy Policy", "href": "#" },
+      { "text": "Terms of Service", "href": "#" },
+      { "text": "Careers", "href": "#" }
+    ],
+    "copyright": "© 2024 ConsultPro. All rights reserved."
+  }
 }

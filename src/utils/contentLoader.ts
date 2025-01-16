@@ -23,3 +23,15 @@ export const getStatsContent = () => {
 export const getTestimonialsContent = () => {
   return content.testimonials;
 };
+
+export const getAboutContent = () => {
+  return content.about;
+};
+
+export const getContactContent = () => {
+  return content.contact;
+};
+
+export const getFooterContent = () => {
+  return content.footer;
+};
